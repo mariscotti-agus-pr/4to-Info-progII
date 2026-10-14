@@ -43,7 +43,7 @@ int main () {
         }
       }
     }
-  }
+  } //para mostrar a que cuadrante pertenecen ambos vectores (solo si N=2)
   
   return 0;
 }
