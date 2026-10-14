@@ -21,7 +21,7 @@ int main () {
     for (int j=0; j<2; j++){
       vector= vector+mat[i][j];
       if (N==2){
-        cuadrante[i]=vector; 
+        cuadrante[i]=vector;  // suma las filas de la matriz (crea los vectores)
       }
       
     }
