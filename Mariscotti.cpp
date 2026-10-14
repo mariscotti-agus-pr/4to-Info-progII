@@ -6,7 +6,8 @@ int main () {
     cout << "ingrese un numero para las filas de la mat" << endl;
     cin >> N;
   } while (N<2);
-  int mat[N][2];
+  //Carga el valor de N
+  int mat[N][2]; // N= las filas de la matriz
   int vector;
   int cuadrante [2];
   for (int i=0;i<N; i++){
@@ -14,13 +15,13 @@ int main () {
       cout <<"ingrese num"<<endl;
       cin>>mat [i][j];
     }
-  }
+  } //carga los numeros de la matriz
   for (int i=0; i<N; i++){
     vector=0;
     for (int j=0; j<2; j++){
       vector= vector+mat[i][j];
       if (N==2){
-        cuadrante[i]=vector;
+        cuadrante[i]=vector; 
       }
       
     }
