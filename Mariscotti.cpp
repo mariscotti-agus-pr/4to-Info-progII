@@ -45,5 +45,5 @@ int main () {
     }
   } //para mostrar a que cuadrante pertenecen ambos vectores (solo si N=2)
   
-  return 0;
+  return 0;//me gusta tu codigo amika,eres muy pro en programacion,te alo
 }
