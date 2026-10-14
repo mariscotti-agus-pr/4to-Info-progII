@@ -28,21 +28,7 @@ int main () {
     cout<< vector << endl;
   }
   if (N==2){
-    if (cuadrante[0]<=0 & cuadrante[1]<=0){
-      cout << "CIII" << endl;
-    } else {
-      if (cuadrante[0]>0 & cuadrante[1]>0){
-        cout << "CI" << endl;
-      } else {
-        if (cuadrante[0]>0 & cuadrante[1]<=0){
-          cout << "CIV" << endl;
-        } else {
-          if (cuadrante[0]<=0 & cuadrante[1]>0){
-            cout << "CII" << endl;
-          }
-        }
-      }
-    }
+   cout << "N=2 xd" << endl;
   } //para mostrar a que cuadrante pertenecen ambos vectores (solo si N=2)
   
   return 0;
