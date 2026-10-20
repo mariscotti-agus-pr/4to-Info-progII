@@ -1,3 +1,6 @@
+// ...cree un arreglo con 3 espacios y almacene en el mismo los primeros 3 números naturales.
+Muestre el contenido del arreglo por pantalla. 
+
 #include <iostream>
 using namespace std;
 int main() {
