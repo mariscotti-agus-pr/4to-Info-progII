@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int arreglo[3];
+    do {
+            cin>> arreglo[0];
+            cin>> arreglo[1];
+            cin>> arreglo[2];
+    } while (arreglo[0]!=1 & arreglo[1]!=2 & arreglo[2]!=3);
+    for (int i=0; i<3; i++){
+        cout<< arreglo[i] << endl;
+    }
+    return 0;
+}
